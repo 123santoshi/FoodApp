@@ -1,0 +1,79 @@
+/* Signup.css */
+
+.signin-div {
+  width: 100%;
+  max-width: 400px; 
+  padding: 20px;
+  margin:250px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+  
+  .signin-heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+    color:red;
+  }
+  
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signin-form label {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .signin-form input[type="email"],
+  .signin-form input[type="text"],  .signin-form input[type="submit"], button  {
+    width: calc(100% - 20px);
+    padding: 15px !important;
+    margin-top: 5px;
+    border: 1px solid #323131;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .signin-form input[type="submit"] , button{
+    background: blue;
+    color:white;
+  }
+
+  
+  .signin-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+ 
+  
+  .account-exist {
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+  }
+  
+  .account-exist a {
+    color: #bddbfa;
+    text-decoration: none;
+  }
+  
+  .account-exist a:hover {
+    text-decoration: underline;
+  }
+  .a{
+    text-decoration: none;
+  }
+  
+
+  
+ 

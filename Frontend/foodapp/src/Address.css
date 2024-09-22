@@ -1,0 +1,29 @@
+.address-container{
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.address-form{
+    width:500px;
+    flex-direction: column;
+    
+    padding:5px;
+    border:2px solid transparent;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding:2px;
+
+}
+P{
+    padding:none;
+}
+input{
+    border:2px solid rgb(24, 23, 23);
+    padding:15px;
+
+}

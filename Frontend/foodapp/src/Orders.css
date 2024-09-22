@@ -1,0 +1,101 @@
+/* Container for the entire order section */
+.order-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Title styling */
+.order-container h1 {
+    font-size: 28px;
+    color: #2a9d8f;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form styling */
+.order-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input fields */
+.order-form input[type="number"],
+.order-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: auto;
+    box-sizing: border-box;
+}
+
+/* Labels and item details */
+.order-form p {
+    font-size: 18px;
+    color: #333;
+}
+
+.order-form span {
+    font-weight: bold;
+    color: #264653;
+    font-size: 20px;
+}
+
+/* Button styling */
+.order-form button {
+    padding: 12px;
+    background-color: #e76f51;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-form button:hover {
+    background-color: #f4a261;
+}
+
+/* Aligning the text on the left for large screens */
+.order-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Alignments for smaller screens */
+@media (max-width: 768px) {
+    .order-container {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .order-form p,
+    .order-form span,
+    .order-form label {
+        font-size: 16px;
+    }
+}
+
+/* Styling for the confirmation message after the order is placed */
+.order-container .confirmation {
+    text-align: center;
+    color: #2a9d8f;
+}
+
+.confirmation h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,31 @@
+.top-card{
+    border:2px solid transparent;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    width:100%;
+}
+
+.top-rated-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1px;
+}
+
+.restaurant-card{
+    border:1px solid rgb(247, 246, 246);
+    margin:2px;
+    padding:15px;
+}
+h1 {
+    font-size: 1.5rem;
+    color: red;
+}
+a{
+    text-decoration: none;
+}

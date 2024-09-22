@@ -1,0 +1,35 @@
+.view-address-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 20px; /* Space between cards */
+  }
+  
+  .address-card {
+    flex: 1 1 250px; /* Adjust the size of the cards */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: box-shadow 0.2s;
+  }
+  
+  .address-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  p {
+    margin: 5px 0; /* Space between paragraphs */
+  }
+  

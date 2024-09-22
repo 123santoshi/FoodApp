@@ -1,0 +1,96 @@
+
+  .signup-div {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin:auto; 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    border: 2px solid black;
+    margin-top:250px;
+  }
+  
+.signup-heading{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: rgb(22, 21, 21);
+    font-weight: bold;
+  }
+  
+  .signup-form{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+  }
+  
+  label {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  strong {
+    margin-bottom: 20px;
+    color: #555;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  input[type="email"] {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #1b1919;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2c8fec;
+    color: #eeeeee;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .error-message{
+    color:red;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .success-message{
+    color:green;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .account-exist{
+    font-weight: bold;
+    color:rgb(98, 133, 241);
+    font-size: 20px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 600px) {
+    div {
+        width: 90%;
+        padding: 15px;
+    }
+  
+    h1 {
+        font-size: 20px;
+    }
+  
+    input[type="email"],
+    input[type="submit"] {
+        font-size: 14px;
+    }
+  }
+  
