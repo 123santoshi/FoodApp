@@ -1,0 +1,857 @@
+[
+  {
+    "restaurant_name": "V-Grand",
+    "items": [
+      {
+        "item_name": "Grilled Chicken Salad",
+        "price": "₹300",
+        "reviews": "4.5/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹250",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/1.webp",
+        "item_id": "1"
+      },
+      {
+        "item_name": "Spaghetti Bolognese",
+        "price": "₹400",
+        "reviews": "4.2/5",
+        "arrival_time": "20 minutes",
+        "offer_price": "₹350",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "2"
+      },
+      {
+        "item_name": "Margherita Pizza",
+        "price": "₹500",
+        "reviews": "4.6/5",
+        "arrival_time": "25 minutes",
+        "offer_price": "₹450",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/3.webp",
+        "item_id": "3"
+      },
+      {
+        "item_name": "Caesar Salad",
+        "price": "₹250",
+        "reviews": "4.3/5",
+        "arrival_time": "12 minutes",
+        "offer_price": "₹200",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/4.webp",
+        "item_id": "4"
+      },
+      {
+        "item_name": "Beef Burger",
+        "price": "₹550",
+        "reviews": "4.7/5",
+        "arrival_time": "18 minutes",
+        "offer_price": "₹500",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/5.webp",
+        "item_id": "5"
+      },
+      {
+        "item_name": "Vegetarian Lasagna",
+        "price": "₹420",
+        "reviews": "4.4/5",
+        "arrival_time": "22 minutes",
+        "offer_price": "₹380",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/6.webp",
+        "item_id": "6"
+      },
+      {
+        "item_name": "Chicken Alfredo Pasta",
+        "price": "₹480",
+        "reviews": "4.5/5",
+        "arrival_time": "19 minutes",
+        "offer_price": "₹430",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/7.webp",
+        "item_id": "7"
+      },
+      {
+        "item_name": "Mushroom Risotto",
+        "price": "₹350",
+        "reviews": "4.2/5",
+        "arrival_time": "17 minutes",
+        "offer_price": "₹300",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/8.webp",
+        "item_id": "8"
+      },
+      {
+        "item_name": "Tandoori Chicken",
+        "price": "₹600",
+        "reviews": "4.8/5",
+        "arrival_time": "25 minutes",
+        "offer_price": "₹550",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/9.webp",
+        "item_id": "9"
+      },
+      {
+        "item_name": "Paneer Tikka",
+        "price": "₹450",
+        "reviews": "4.5/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹400",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/10.webp",
+        "item_id": "10"
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Kaveri Grand",
+    "items": [
+      {
+        "item_name": "Club Sandwich",
+        "price": "₹220",
+        "reviews": "4.1/5",
+        "arrival_time": "12 minutes",
+        "offer_price": "₹200",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/1.webp",
+        "item_id": "11"
+      },
+      {
+        "item_name": "Veggie Wrap",
+        "price": "₹180",
+        "reviews": "4.0/5",
+        "arrival_time": "10 minutes",
+        "offer_price": "₹150",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "12"
+      },
+      {
+        "item_name": "Falafel Plate",
+        "price": "₹250",
+        "reviews": "4.4/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹220",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/3.webp",
+        "item_id": "13"
+      },
+      {
+        "item_name": "Greek Salad",
+        "price": "₹280",
+        "reviews": "4.3/5",
+        "arrival_time": "14 minutes",
+        "offer_price": "₹250",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/4.webp",
+        "item_id": "14"
+      },
+      {
+        "item_name": "Chicken Wrap",
+        "price": "₹230",
+        "reviews": "4.5/5",
+        "arrival_time": "10 minutes",
+        "offer_price": "₹200",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/5.webp",
+        "item_id": "15"
+      },
+      {
+        "item_name": "Hummus with Pita",
+        "price": "₹150",
+        "reviews": "4.2/5",
+        "arrival_time": "8 minutes",
+        "offer_price": "₹130",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/6.webp",
+        "item_id": "16"
+      },
+      {
+        "item_name": "French Fries",
+        "price": "₹120",
+        "reviews": "4.1/5",
+        "arrival_time": "5 minutes",
+        "offer_price": "₹100",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/7.webp",
+        "item_id": "17"
+      },
+      {
+        "item_name": "Veggie Burger",
+        "price": "₹240",
+        "reviews": "4.3/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹210",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/8.webp",
+        "item_id": "18"
+      },
+      {
+        "item_name": "Grilled Chicken Wrap",
+        "price": "₹280",
+        "reviews": "4.5/5",
+        "arrival_time": "13 minutes",
+        "offer_price": "₹250",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/9.webp",
+        "item_id": "19"
+      },
+      {
+        "item_name": "Shawarma Plate",
+        "price": "₹320",
+        "reviews": "4.6/5",
+        "arrival_time": "17 minutes",
+        "offer_price": "₹290",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/10.webp",
+        "item_id": "20"
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Prakruthi",
+    "items": [
+      {
+        "item_name": "Butter Chicken",
+        "price": "₹550",
+        "reviews": "4.7/5",
+        "arrival_time": "20 minutes",
+        "offer_price": "₹500",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/4.webp",
+        "item_id": "21"
+      },
+      {
+        "item_name": "Dal Makhani",
+        "price": "₹400",
+        "reviews": "4.6/5",
+        "arrival_time": "18 minutes",
+        "offer_price": "₹360",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "22"
+      },
+      {
+        "item_name": "Paneer Butter Masala",
+        "price": "₹450",
+        "reviews": "4.5/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹410",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/1.webp",
+        "item_id": "23"
+      },
+      {
+        "item_name": "Garlic Naan",
+        "price": "₹120",
+        "reviews": "4.4/5",
+        "arrival_time": "7 minutes",
+        "offer_price": "₹100",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/3.webp",
+        "item_id": "24"
+      },
+      {
+        "item_name": "Chicken Biryani",
+        "price": "₹500",
+        "reviews": "4.8/5",
+        "arrival_time": "25 minutes",
+        "offer_price": "₹460",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/5.webp",
+        "item_id": "25"
+      },
+      {
+        "item_name": "Palak Paneer",
+        "price": "₹420",
+        "reviews": "4.3/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹380",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/6.webp",
+        "item_id": "26"
+      },
+      {
+        "item_name": "Tandoori Roti",
+        "price": "₹50",
+        "reviews": "4.2/5",
+        "arrival_time": "5 minutes",
+        "offer_price": "₹40",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/7.webp",
+        "item_id": "27"
+      },
+      {
+        "item_name": "Mutton Rogan Josh",
+        "price": "₹650",
+        "reviews": "4.9/5",
+        "arrival_time": "30 minutes",
+        "offer_price": "₹600",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/8.webp",
+        "item_id": "28"
+      },
+      {
+        "item_name": "Fish Tikka",
+        "price": "₹480",
+        "reviews": "4.6/5",
+        "arrival_time": "20 minutes",
+        "offer_price": "₹430",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/9.webp",
+        "item_id": "29"
+      },
+      {
+        "item_name": "Lassi",
+        "price": "₹150",
+        "reviews": "4.5/5",
+        "arrival_time": "5 minutes",
+        "offer_price": "₹120",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/10.webp",
+        "item_id": "30"
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Zeebu",
+    "items": [
+      {
+        "item_name": "Grilled Chicken Salad",
+        "price": "₹300",
+        "reviews": "4.5/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹250",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/4.webp",
+        "item_id": "31"
+      },
+      {
+        "item_name": "Spaghetti Bolognese",
+        "price": "₹400",
+        "reviews": "4.2/5",
+        "arrival_time": "20 minutes",
+        "offer_price": "₹350",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "32"
+      },
+      {
+        "item_name": "Margherita Pizza",
+        "price": "₹500",
+        "reviews": "4.6/5",
+        "arrival_time": "25 minutes",
+        "offer_price": "₹450",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "33"
+      },
+      {
+        "item_name": "Caesar Salad",
+        "price": "₹250",
+        "reviews": "4.3/5",
+        "arrival_time": "12 minutes",
+        "offer_price": "₹200",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "34"
+      },
+      {
+        "item_name": "Beef Burger",
+        "price": "₹550",
+        "reviews": "4.7/5",
+        "arrival_time": "18 minutes",
+        "offer_price": "₹500",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "35"
+      },
+      {
+        "item_name": "Vegetarian Lasagna",
+        "price": "₹420",
+        "reviews": "4.4/5",
+        "arrival_time": "22 minutes",
+        "offer_price": "₹380",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "36"
+      },
+      {
+        "item_name": "Chicken Alfredo Pasta",
+        "price": "₹480",
+        "reviews": "4.5/5",
+        "arrival_time": "19 minutes",
+        "offer_price": "₹430",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "37"
+      },
+      {
+        "item_name": "Mushroom Risotto",
+        "price": "₹350",
+        "reviews": "4.2/5",
+        "arrival_time": "17 minutes",
+        "offer_price": "₹300",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "38"
+      },
+      {
+        "item_name": "Tandoori Chicken",
+        "price": "₹600",
+        "reviews": "4.8/5",
+        "arrival_time": "25 minutes",
+        "offer_price": "₹550",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "39"
+      },
+      {
+        "item_name": "Paneer Tikka",
+        "price": "₹450",
+        "reviews": "4.5/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹400",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "40"
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Bilal",
+    "items": [
+      {
+        "item_name": "Club Sandwich",
+        "price": "₹220",
+        "reviews": "4.1/5",
+        "arrival_time": "12 minutes",
+        "offer_price": "₹200",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/4.webp",
+        "item_id": "41"
+      },
+      {
+        "item_name": "Veggie Wrap",
+        "price": "₹180",
+        "reviews": "4.0/5",
+        "arrival_time": "10 minutes",
+        "offer_price": "₹150",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "42"
+      },
+      {
+        "item_name": "Falafel Plate",
+        "price": "₹250",
+        "reviews": "4.4/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹220",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "43"
+      },
+      {
+        "item_name": "Greek Salad",
+        "price": "₹280",
+        "reviews": "4.3/5",
+        "arrival_time": "14 minutes",
+        "offer_price": "₹250",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "44"
+      },
+      {
+        "item_name": "Chicken Wrap",
+        "price": "₹230",
+        "reviews": "4.5/5",
+        "arrival_time": "10 minutes",
+        "offer_price": "₹200",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "45"
+      },
+      {
+        "item_name": "Hummus with Pita",
+        "price": "₹150",
+        "reviews": "4.2/5",
+        "arrival_time": "8 minutes",
+        "offer_price": "₹130",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "46"
+      },
+      {
+        "item_name": "French Fries",
+        "price": "₹120",
+        "reviews": "4.1/5",
+        "arrival_time": "5 minutes",
+        "offer_price": "₹100",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "47"
+      },
+      {
+        "item_name": "Veggie Burger",
+        "price": "₹240",
+        "reviews": "4.3/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹210",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "48"
+      },
+      {
+        "item_name": "Grilled Chicken Wrap",
+        "price": "₹280",
+        "reviews": "4.5/5",
+        "arrival_time": "13 minutes",
+        "offer_price": "₹250",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "49"
+      },
+      {
+        "item_name": "Shawarma Plate",
+        "price": "₹320",
+        "reviews": "4.6/5",
+        "arrival_time": "17 minutes",
+        "offer_price": "₹290",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "50"
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Krinthinga",
+    "items": [
+      {
+        "item_name": "Butter Chicken",
+        "price": "₹550",
+        "reviews": "4.7/5",
+        "arrival_time": "20 minutes",
+        "offer_price": "₹500",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "51"
+      },
+      {
+        "item_name": "Dal Makhani",
+        "price": "₹400",
+        "reviews": "4.6/5",
+        "arrival_time": "18 minutes",
+        "offer_price": "₹360",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "52"
+      },
+      {
+        "item_name": "Paneer Butter Masala",
+        "price": "₹450",
+        "reviews": "4.5/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹410",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "53"
+      },
+      {
+        "item_name": "Garlic Naan",
+        "price": "₹120",
+        "reviews": "4.4/5",
+        "arrival_time": "7 minutes",
+        "offer_price": "₹100",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "54"
+      },
+      {
+        "item_name": "Chicken Biryani",
+        "price": "₹500",
+        "reviews": "4.8/5",
+        "arrival_time": "25 minutes",
+        "offer_price": "₹460",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "55"
+      },
+      {
+        "item_name": "Palak Paneer",
+        "price": "₹420",
+        "reviews": "4.3/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹380",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "56"
+      },
+      {
+        "item_name": "Tandoori Roti",
+        "price": "₹50",
+        "reviews": "4.2/5",
+        "arrival_time": "5 minutes",
+        "offer_price": "₹40",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "57"
+      },
+      {
+        "item_name": "Mutton Rogan Josh",
+        "price": "₹650",
+        "reviews": "4.9/5",
+        "arrival_time": "30 minutes",
+        "offer_price": "₹600",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "58"
+      },
+      {
+        "item_name": "Fish Tikka",
+        "price": "₹480",
+        "reviews": "4.6/5",
+        "arrival_time": "20 minutes",
+        "offer_price": "₹430",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "59"
+      },
+      {
+        "item_name": "Lassi",
+        "price": "₹150",
+        "reviews": "4.5/5",
+        "arrival_time": "5 minutes",
+        "offer_price": "₹120",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "60"
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Varma grand",
+    "items": [
+      {
+        "item_name": "Grilled Chicken Salad",
+        "price": "₹300",
+        "reviews": "4.5/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹250",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "61"
+      },
+      {
+        "item_name": "Spaghetti Bolognese",
+        "price": "₹400",
+        "reviews": "4.2/5",
+        "arrival_time": "20 minutes",
+        "offer_price": "₹350",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "62"
+      },
+      {
+        "item_name": "Margherita Pizza",
+        "price": "₹500",
+        "reviews": "4.6/5",
+        "arrival_time": "25 minutes",
+        "offer_price": "₹450",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/2.webp",
+        "item_id": "63"
+      },
+      {
+        "item_name": "Caesar Salad",
+        "price": "₹250",
+        "reviews": "4.3/5",
+        "arrival_time": "12 minutes",
+        "offer_price": "₹200",
+        "item_image_url": "https://example.com/images/caesar-salad.jpg",
+        "item_id": "64"
+      },
+      {
+        "item_name": "Beef Burger",
+        "price": "₹550",
+        "reviews": "4.7/5",
+        "arrival_time": "18 minutes",
+        "offer_price": "₹500",
+        "item_image_url": "https://example.com/images/beef-burger.jpg",
+        "item_id": "65"
+      },
+      {
+        "item_name": "Vegetarian Lasagna",
+        "price": "₹420",
+        "reviews": "4.4/5",
+        "arrival_time": "22 minutes",
+        "offer_price": "₹380",
+        "item_image_url": "https://example.com/images/vegetarian-lasagna.jpg",
+        "item_id": "66"
+      },
+      {
+        "item_name": "Chicken Alfredo Pasta",
+        "price": "₹480",
+        "reviews": "4.5/5",
+        "arrival_time": "19 minutes",
+        "offer_price": "₹430",
+        "item_image_url": "https://example.com/images/chicken-alfredo-pasta.jpg",
+        "item_id": "67"
+      },
+      {
+        "item_name": "Mushroom Risotto",
+        "price": "₹350",
+        "reviews": "4.2/5",
+        "arrival_time": "17 minutes",
+        "offer_price": "₹300",
+        "item_image_url": "https://example.com/images/mushroom-risotto.jpg",
+        "item_id": "68"
+      },
+      {
+        "item_name": "Tandoori Chicken",
+        "price": "₹600",
+        "reviews": "4.8/5",
+        "arrival_time": "25 minutes",
+        "offer_price": "₹550",
+        "item_image_url": "https://example.com/images/tandoori-chicken.jpg",
+        "item_id": "69"
+      },
+      {
+        "item_name": "Paneer Tikka",
+        "price": "₹450",
+        "reviews": "4.5/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹400",
+        "item_image_url": "https://example.com/images/paneer-tikka.jpg",
+        "item_id": "70"
+      }
+    ]
+  },
+  {
+    "restaurant_name": "Yuva raj",
+    "items": [
+      {
+        "item_name": "Club Sandwich",
+        "price": "₹220",
+        "reviews": "4.1/5",
+        "arrival_time": "12 minutes",
+        "offer_price": "₹200",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/4.webp",
+        "item_id": "71"
+      },
+      {
+        "item_name": "Veggie Wrap",
+        "price": "₹180",
+        "reviews": "4.0/5",
+        "arrival_time": "10 minutes",
+        "offer_price": "₹150",
+        "item_image_url": "https://example.com/images/veggie-wrap.jpg",
+        "item_id": "72"
+      },
+      {
+        "item_name": "Falafel Plate",
+        "price": "₹250",
+        "reviews": "4.4/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹220",
+        "item_image_url": "https://example.com/images/falafel-plate.jpg",
+        "item_id": "73"
+      },
+      {
+        "item_name": "Greek Salad",
+        "price": "₹280",
+        "reviews": "4.3/5",
+        "arrival_time": "14 minutes",
+        "offer_price": "₹250",
+        "item_image_url": "https://example.com/images/greek-salad.jpg",
+        "item_id": "74"
+      },
+      {
+        "item_name": "Chicken Wrap",
+        "price": "₹230",
+        "reviews": "4.5/5",
+        "arrival_time": "10 minutes",
+        "offer_price": "₹200",
+        "item_image_url": "https://example.com/images/chicken-wrap.jpg",
+        "item_id": "75"
+      },
+      {
+        "item_name": "Hummus with Pita",
+        "price": "₹150",
+        "reviews": "4.2/5",
+        "arrival_time": "8 minutes",
+        "offer_price": "₹130",
+        "item_image_url": "https://example.com/images/hummus-pita.jpg",
+        "item_id": "76"
+      },
+      {
+        "item_name": "French Fries",
+        "price": "₹120",
+        "reviews": "4.1/5",
+        "arrival_time": "5 minutes",
+        "offer_price": "₹100",
+        "item_image_url": "https://example.com/images/french-fries.jpg",
+        "item_id": "77"
+      },
+      {
+        "item_name": "Veggie Burger",
+        "price": "₹240",
+        "reviews": "4.3/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹210",
+        "item_image_url": "https://example.com/images/veggie-burger.jpg",
+        "item_id": "78"
+      },
+      {
+        "item_name": "Grilled Chicken Wrap",
+        "price": "₹280",
+        "reviews": "4.5/5",
+        "arrival_time": "13 minutes",
+        "offer_price": "₹250",
+        "item_image_url": "https://example.com/images/grilled-chicken-wrap.jpg",
+        "item_id": "79"
+      },
+      {
+        "item_name": "Shawarma Plate",
+        "price": "₹320",
+        "reviews": "4.6/5",
+        "arrival_time": "17 minutes",
+        "offer_price": "₹290",
+        "item_image_url": "https://example.com/images/shawarma-plate.jpg",
+        "item_id": "80"
+      }
+    ]
+  },
+  {
+    "restaurant_name": "RS Punjabi dhaba",
+    "items": [
+      {
+        "item_name": "Butter Chicken",
+        "price": "₹550",
+        "reviews": "4.7/5",
+        "arrival_time": "20 minutes",
+        "offer_price": "₹500",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/4.webp",
+        "item_id": "81"
+      },
+      {
+        "item_name": "Dal Makhani",
+        "price": "₹400",
+        "reviews": "4.6/5",
+        "arrival_time": "18 minutes",
+        "offer_price": "₹360",
+        "item_image_url": "https://example.com/images/dal-makhani.jpg",
+        "item_id": "82"
+      },
+      {
+        "item_name": "Paneer Butter Masala",
+        "price": "₹450",
+        "reviews": "4.5/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹410",
+        "item_image_url": "https://example.com/images/paneer-butter-masala.jpg",
+        "item_id": "83"
+      },
+      {
+        "item_name": "Garlic Naan",
+        "price": "₹120",
+        "reviews": "4.4/5",
+        "arrival_time": "7 minutes",
+        "offer_price": "₹100",
+        "item_image_url": "https://example.com/images/garlic-naan.jpg",
+        "item_id": "84"
+      },
+      {
+        "item_name": "Chicken Biryani",
+        "price": "₹500",
+        "reviews": "4.8/5",
+        "arrival_time": "25 minutes",
+        "offer_price": "₹460",
+        "item_image_url": "https://example.com/images/chicken-biryani.jpg",
+        "item_id": "85"
+      },
+      {
+        "item_name": "Palak Paneer",
+        "price": "₹420",
+        "reviews": "4.3/5",
+        "arrival_time": "15 minutes",
+        "offer_price": "₹380",
+        "item_image_url": "https://example.com/images/palak-paneer.jpg",
+        "item_id": "86"
+      },
+      {
+        "item_name": "Tandoori Roti",
+        "price": "₹50",
+        "reviews": "4.2/5",
+        "arrival_time": "5 minutes",
+        "offer_price": "₹40",
+        "item_image_url": "https://example.com/images/tandoori-roti.jpg",
+        "item_id": "87"
+      },
+      {
+        "item_name": "Mutton Rogan Josh",
+        "price": "₹650",
+        "reviews": "4.9/5",
+        "arrival_time": "30 minutes",
+        "offer_price": "₹600",
+        "item_image_url": "https://example.com/images/mutton-rogan-josh.jpg",
+        "item_id": "88"
+      },
+      {
+        "item_name": "Fish Tikka",
+        "price": "₹480",
+        "reviews": "4.6/5",
+        "arrival_time": "20 minutes",
+        "offer_price": "₹430",
+        "item_image_url": "https://cdn.dummyjson.com/recipe-images/1.webp",
+        "item_id": "89"
+      },
+      {
+        "item_name": "Lassi",
+        "price": "₹150",
+        "reviews": "4.5/5",
+        "arrival_time": "5 minutes",
+        "offer_price": "₹120",
+        "item_image_url": "https://example.com/images/lassi.jpg",
+        "item_id": "90"
+      }
+    ]
+  }
+]
