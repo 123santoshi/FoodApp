@@ -1,0 +1,2 @@
+SMTP pwd = zmgl jpea fopw vbgw
+SMTP MAIL = mendusantoshi66@gmail.com
